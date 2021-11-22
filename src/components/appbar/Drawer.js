@@ -47,12 +47,6 @@ export default function TemporaryDrawer() {
     >
       <List>
         <DrawerLinks to="/" title="Home" />
-        <DrawerLinks to="/About" title="About" />
-        <DrawerLinks to="/Divisions" title="Divisions" />
-        <DrawerLinks to="/Fuel Discounts" title="Fuel Discounts" />
-        <DrawerLinks to="/Orientation" title="Orientation" />
-        <DrawerLinks to="/Contact" title="Contact" />
-        <DrawerLinks to="/Media" title="Media" />
       </List>
       <Divider />
       <Box

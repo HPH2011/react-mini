@@ -36,12 +36,9 @@ export default function ButtonAppBar() {
       }}
     >
       <Toolbar sx={{ flexWrap: "wrap" }}>
-        <Typography
-          variant="h6"
-          color="inherit"
-          noWrap
-          sx={{ flexGrow: 1 }}
-        ></Typography>
+        <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
+          Bruce Oakley Inc
+        </Typography>
 
         {isMatch ? (
           <Drawer />
@@ -49,6 +46,12 @@ export default function ButtonAppBar() {
           <>
             <nav>
               <AppBarLinks title="Home" to="/" />
+              <AppBarLinks title="About" to="About" />
+              <AppBarLinks title="Divisions" to="Divisions" />
+              <AppBarLinks title="Fuel Discounts" to="Fuel Discounts" />
+              <AppBarLinks title="Orientation" to="Orientation" />
+              <AppBarLinks title="Contact" to="Contact" />
+              <AppBarLinks title="Media" to="Media" />
             </nav>
 
             <Button

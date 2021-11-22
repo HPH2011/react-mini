@@ -1,5 +1,7 @@
+import VerticalTabs from "../components/divisions/VerticalTabs";
+
 const Divisions = () => {
-  return "Divisions Page";
+  return <VerticalTabs />;
 };
 
 export default Divisions;

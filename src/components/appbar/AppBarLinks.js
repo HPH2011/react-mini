@@ -21,8 +21,8 @@ const AppBarLinks = ({ title, to }) => {
       sx={{ my: 1, mx: 1.5, color: "white" }}
       underline="none"
       component={NavLink}
-      to={to}
       exact
+      to={to}
     >
       {title}
     </Link>
